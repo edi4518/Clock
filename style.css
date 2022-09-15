@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;justify-content: center;
+    background: url("Imagenes/amanecer.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+    overflow: hidden;
+    
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    
+}
+
+.reloj{
+    display: flex;
+
+}
+
+.reloj div{
+    margin: 5px;
+    position: relative;
+
+}
+
+.reloj span{
+    width: 100px;
+    height: 80px;
+    background: slateblue;
+    opacity: 0.8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    
+}
+
+.reloj .text{
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: darkblue;
+    opacity: 0.8;
+
+
+}
+
+.reloj #ampm{
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background: green;
+
+}
+
+.btn-contenedor{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 60px;
+
+}
+
+#btn-cambiar{
+    width: 160px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    background: linear-gradient(#ffc40083, #d9ff00b9);
+    border-radius: 8px;
+    box-shadow: 4px 5px 5px 4px #00000094 ;
+}
+
+#btn-cambiar:hover{
+    background: linear-gradient(#ffc400dc, #d9ff00);
+    cursor: pointer;
+    
+}
+
+#btn-cambiar:active{
+    background: linear-gradient(#dd000098, #fbff00);
+}
